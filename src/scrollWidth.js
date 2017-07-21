@@ -1,6 +1,6 @@
 
 (function ( $ ) { 
-    $.fn.scrollWidth = function() {alert();
+    $.fn.scrollWidth = function() {
 			var that = $(this)[0];
 		    var temp_el = document.createElement('span');
 		    temp_el.style.fontSize = window.getComputedStyle(that).fontSize;
